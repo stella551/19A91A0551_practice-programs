@@ -1,0 +1,16 @@
+#Methods in Dictionary
+dict1={1:"CSE",2:"IT",3:"PT",4:"AGRI",5:"ECE"}
+#get()-returns value based on the key
+res=dict1.get(2)#get(key)->value
+print(res)#AGRI
+#items()-returns <key,value>pair
+res1=dict1.items()
+print(res1)#dict_items([(1, 'CSE'), (2, 'IT'), (3, 'PT'), (4, 'AGRI'), (5, 'ECE')])
+res2=dict1.keys()
+print(res2)#dict_keys([1, 2, 3, 4, 5])
+res3=dict1.pop(1)
+print(res3)#CSE
+res4=dict1.popitem()
+print(res4)#(5, 'ECE')
+dict1.update({6:"EEE"}) 
+print dict1 #{1: 'CSE', 2: 'IT', 3: 'PT', 4: ' AGRI', 5: 'ECE', 6:'EEE'}
