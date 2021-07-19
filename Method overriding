@@ -1,0 +1,21 @@
+class A(): 
+      def __init__(self):
+      self.value = "super class"
+      def show(self): 
+      print(self.value) 
+
+class B(A): 
+      def __init__(self): 
+      self.value = "sub class"
+      def show(self):
+      print(self.value) 
+
+obj1 =A() 
+obj2 =B() 
+obj1.show() 
+obj2.show() 
+
+
+Output:
+Super class
+Sub class
