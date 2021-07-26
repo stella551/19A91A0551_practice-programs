@@ -1,0 +1,13 @@
+try:
+  print("python")
+except:
+  print("unable to print")
+else:
+  print("python is printed")
+
+
+Output:
+Python
+Python is printed
+
+
